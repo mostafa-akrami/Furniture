@@ -1,0 +1,581 @@
+@media screen and (max-width:1400px) {
+
+    #hanging-lamp-two .hanging-two-cover {
+        left: 37.75%;
+    }
+
+    #sofa-two .sofa-back-two {
+        right: 37.75%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    #hanging-lamp-two .hanging-two-cover {
+        left: 35.75%;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
+        width: 180px;
+        height: 200px;
+    }
+
+    #sofa-two .sofa-back-two {
+        right: 35.75%;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    header #slide {
+        background-position: right;
+    }
+
+    header #slide .slider span {
+        font-size: 60px;
+        left: 35%;
+        top: 15%;
+    }
+
+    header #slide .slider .slide-description h1 {
+        font-size: 60px;
+        margin-right: 130px;
+        margin-top: 20px;
+    }
+
+    header #slide .slider .slide-description h2 {
+        font-size: 50px;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .description-right h1 {
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .description-right p {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 15px 0 10px 0;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    #hanging-lamp-two {
+        height: 500px;
+    }
+
+    #hanging-lamp-two .hanging-two-cover {
+        left: 35.5%;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul {
+        align-self: flex-start;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
+        width: 110px;
+        height: 150px;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h5 {
+        font-size: 12px;
+        font-weight: 100;
+
+    }
+
+    #sofa .sofa .sofa-right h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #sofa .sofa .sofa-right h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    #sofa .sofa .sofa-left .description-right h1 {
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    #sofa .sofa .sofa-left .description-right p {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 15px 0 0 0;
+    }
+
+    #sofa .sofa .sofa-left .description-right a {
+        left: 30px;
+        margin-top: 10px;
+    }
+
+    #sofa-two {
+        height: 500px;
+    }
+
+    #sofa-two .sofa-back-two {
+        right: 35.5%;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul {
+        align-self: flex-start;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li img {
+        width: 110px;
+        height: 150px;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h3 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h5 {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    #counters {
+        padding: 80px 0;
+    }
+
+    #counters .counters .counters-item svg {
+        font-size: 30px;
+    }
+
+    #counters .counters .counters-item .counter {
+        margin: 40px 0;
+        font-size: 20px;
+    }
+
+    #counters .counters .counters-item h5 {
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    footer .footer h2 {
+        font-size: 25px;
+    }
+
+    footer .footer ul li a svg {
+        font-size: 16px;
+    }
+
+    footer .footer .footer-desc p {
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 35px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    header #slide .slider span {
+        font-size: 45px;
+        left: 35%;
+        top: 19%;
+    }
+
+    header #slide .slider .slide-description h1 {
+        font-size: 45px;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+
+    header #slide .slider .slide-description h2 {
+        font-size: 38px;
+    }
+
+    /* ***************** responsive *****************/
+    header nav .navbar-right ul {
+        display: none;
+    }
+
+    header nav .hamburger-icon {
+        display: block;   
+    }
+
+    header .hamburger-icon img {                                                       
+        cursor: pointer;
+    }
+
+    #responsive-navigation {
+        display: block;
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: -200px;
+    }
+
+    #responsive-navigation ul {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    #responsive-navigation ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #responsive-navigation ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .back-container {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+    }
+/* ***************** responsive *****************/
+
+    #hanging-lamp-two .hanging-two-cover {
+        left: 43.75%;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .description-right {
+        display: none;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .img-right {
+        margin: auto;
+        width: 80%;
+        z-index: 1;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .img-right img {
+        width: 100%;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left {
+        width: 50%;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h1 {
+        font-size: 20px;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h2 {
+        font-size: 25px;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3 {
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h5 {
+        font-size: 10px;
+    }
+
+    #sofa-two .sofa-back-two {
+        right: 43.75%;
+    }
+
+    #sofa .sofa .sofa-right {
+        width: 50%;
+    }
+
+    #sofa .sofa .sofa-right h1 {
+        font-size: 20px;
+    }
+
+    #sofa .sofa .sofa-right h2 {
+        font-size: 25px;
+    }
+
+    #sofa .sofa .sofa-left .description-right {
+        display: none;
+    }
+
+    #sofa .sofa .sofa-left .img-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #sofa .sofa .sofa-left .img-left img {
+        width: 100%;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h3 {
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h5 {
+        font-size: 10px;
+    }
+
+    #counters {
+        padding: 70px 0;
+    }
+
+    #counters .counters .counters-item svg {
+        font-size: 20px;
+    }
+
+    #counters .counters .counters-item .counter {
+        margin: 30px 0;
+        font-size: 15px;
+    }
+
+    #counters .counters .counters-item h5 {
+        font-size: 16px;
+    }
+
+    footer .footer h2 {
+        font-size: 25px;
+    }
+
+    footer .footer ul li a svg {
+        font-size: 16px;
+    }
+
+    footer .footer .footer-desc {
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    footer .footer .footer-desc p {
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* responsive */
+    #responsive-navigation ul {
+        flex-wrap: wrap;
+    }
+    /* responsive */
+
+    header #slide {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 100%;
+    }
+
+    header #slide .slider span {
+        font-size: 35px;
+        left: 35%;
+        top: 5%;
+    }
+
+    header #slide .slider .slide-description {
+        top: 13%;
+    }
+
+    header #slide .slider .slide-description h1 {
+        font-size: 35px;
+        margin-right: 45px;
+        margin-top: 5px;
+    }
+
+    header #slide .slider .slide-description h2 {
+        font-size: 28px;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h1 {
+        font-size: 18px;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left h2 {
+        font-size: 21px;
+    }
+
+    #hanging-lamp-two .hanging-two-cover {
+        display: none;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-right {
+        display: none;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left {
+        margin: auto;
+        width: 100%;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img {
+        width: 150px;
+        height: 170px;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h3 {
+        font-size: 15px;
+    }
+
+    #hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h5 {
+        font-size: 13px;
+    }
+
+    #sofa .sofa .sofa-right h1 {
+        font-size: 18px;
+    }
+
+    #sofa .sofa .sofa-right h2 {
+        font-size: 21px;
+    }
+
+    #sofa-two .sofa-back-two {
+        display: none;
+    }
+
+    #sofa-two .sofa-two .sofa-two-left {
+        width: 0%;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li img {
+        width: 150px;
+        height: 170px;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h3 {
+        font-size: 15px;
+    }
+
+    #sofa-two .sofa-two .sofa-two-right ul li h5 {
+        font-size: 13px;
+    }
+
+    #counters {
+        padding: 40px 0;
+    }
+
+    #counters .counters {
+        flex-wrap: wrap;
+    }
+
+    #counters .counters .counters-item {
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    #counters .counters .counters-item .counter {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    header #slide {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    header nav .navbar-left img {
+        width: 70px;
+    }
+
+    header #slide {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    header #slide .slider span {
+        font-size: 25px;
+        left: 35%;
+        top: 18%;
+    }
+
+    header #slide .slider .slide-description {
+        top: 25%;
+    }
+
+    header #slide .slider .slide-description h1 {
+        font-size: 25px;
+    }
+
+    header #slide .slider .slide-description h2 {
+        font-size: 17px;
+    }
+
+    #hanging-lamp {
+        background-color: #fff;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-left {
+        display: none;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right .img-right {
+        margin: auto;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #hanging-lamp .hanging-lamp .hanging-right {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #sofa .sofa-cover {
+        display: none;
+    }
+
+    #sofa .sofa .sofa-left {
+        display: none;
+    }
+
+    #sofa .sofa .sofa-right {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+}
